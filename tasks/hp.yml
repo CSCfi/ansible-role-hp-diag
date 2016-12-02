@@ -17,7 +17,7 @@
    cron:
         name: "ansible-pull"
         user: "{{ hpssacli_diag_store_owner }}"
-        job: "/bin/nice /usr/bin/sudo {{ hpssacli_diag_sbin_path }} ctrl all diag file={{ hpssacli_diag_store_path }}/hpssacli_diag_$(hostname -s)_$(date +%Y%m%d.zip >/dev/null 2>&1"
+        job: "/bin/nice /usr/bin/sudo {{ hpssacli_diag_sbin_path }} ctrl all diag file={{ hpssacli_diag_store_path }}/hpssacli_diag_$(hostname -s)_$(date +%Y%m%d).zip >/dev/null 2>&1"
         minute: "{{ hpssacli_diag_cron_minute_interval | default('0')}}"
         hour: "{{ hpssacli_diag_cron_hour_interval | default('02') }}"
         day: "{{ hpssacli_diag_cron_day_interval | default('*') }}"
