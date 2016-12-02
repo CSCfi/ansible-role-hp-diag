@@ -4,6 +4,8 @@ ansible-role-hp-diag
 Requirements
 ------------
 
+An HP server that has "hpssacli" installed
+
  - https://github.com/martbhell/python-hpadureport
   - the python script that returns disks with increasing error values
  - https://github.com/CSC-IT-Center-for-Science/ansible-role-nrpe
