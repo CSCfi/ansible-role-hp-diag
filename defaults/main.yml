@@ -4,6 +4,7 @@
 hpssacli_diag_store_path: "/var/lib/hpssacli_diags"
 hpssacli_diag_sbin_path: "/usr/sbin/hpssacli"
 hpssacli_diag_store_owner: "nrpe"
+hpssacli_diag_install_with_pip: True
 
 #hpssacli_diag_cron_minute_interval: "0"
 #hpssacli_diag_cron_hour_interval: "02"

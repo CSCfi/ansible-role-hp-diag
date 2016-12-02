@@ -6,6 +6,12 @@
         name: "hpssacli"
         state: "present"
 
+ - name: pip install python-hostlist
+   pip:
+        name: "python-hostlist"
+        state: "present"
+   when: hpssacli_diag_install_with_pip
+
  - name: create directory hpssacli_diag_store_path
    file: 
         path: "{{ hpssacli_diag_store_path }}"
