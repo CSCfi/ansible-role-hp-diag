@@ -1,0 +1,14 @@
+---
+# defaults file for ansible-role-hp-diag
+
+hpssacli_diag_store_path: "/var/lib/hpssacli_diags"
+hpssacli_diag_sbin_path: "/usr/sbin/hpssacli"
+hpssacli_diag_store_owner: "nrpe"
+
+#hpssacli_diag_cron_minute_interval: "0"
+#hpssacli_diag_cron_hour_interval: "02"
+#hpssacli_diag_cron_day_interval: "*"
+#hpssacli_diag_cron_month_interval: "*"
+#hpssacli_diag_cron_weekday_interval: "1"
+#hpssacli_diag_cron_state: "present"
+
