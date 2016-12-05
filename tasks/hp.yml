@@ -40,4 +40,5 @@
      owner: "{{ hpssacli_parser_owner }}"
      group: "{{ hpssacli_parser_group }}"
      sha256sum: "{{ hpssacli_parser_checksum }}"
+     force: "{{ hpssacli_parser_force }}"
    when: hpssacli_parser_enable

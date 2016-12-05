@@ -13,6 +13,8 @@ hpssacli_parser_checksum: "2e1489d25c24d3159fe569c23edee92cc17596decdf42f6a6b510
 hpssacli_parser_owner: "root"
 hpssacli_parser_group: "root"
 hpssacli_parser_mode: "0755"
+# set this to True to get_url the file even if it exists
+hpssacli_parser_force: False
 
 #hpssacli_diag_cron_minute_interval: "0"
 #hpssacli_diag_cron_hour_interval: "02"
