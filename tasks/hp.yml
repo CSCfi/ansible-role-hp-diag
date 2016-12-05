@@ -31,3 +31,13 @@
         weekday: "{{ hpssacli_diag_cron_weekday_interval | default('1') }}"
         cron_file: hpssacli_diag
         state: "{{ hpssacli_diag_cron_state | default('present') }}"
+
+ - name: get_url in python-hpadureport-parser
+   get_url:
+     url: "{{ hpssacli_parser_url }}"
+     dest: "{{ hpssacli_parser_dest }}"
+     mode: "{{ hpssacli_parser_mode }}"
+     owner: "{{ hpssacli_parser_owner }}"
+     group: "{{ hpssacli_parser_group }}"
+     sha256sum: "{{ hpssacli_parser_checksum }}"
+   when: hpssacli_parser_enable

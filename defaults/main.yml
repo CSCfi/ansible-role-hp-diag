@@ -5,6 +5,14 @@ hpssacli_diag_store_path: "/var/lib/hpssacli_diags"
 hpssacli_diag_sbin_path: "/usr/sbin/hpssacli"
 hpssacli_diag_store_owner: "nrpe"
 hpssacli_diag_install_with_pip: True
+# Set hpssacli_parser_enable to False to not get_url in python-hpadureport-parser.py
+hpssacli_parser_enable: True
+hpssacli_parser_dest: "/usr/local/bin/python-hpadureport-parser.py"
+hpssacli_parser_url: "https://github.com/martbhell/python-hpadureport/blob/124f6b3eae61a9621e2ec4a4f35772d1bc77049b/python-hpadureport-parser.py"
+hpssacli_parser_checksum: "2e1489d25c24d3159fe569c23edee92cc17596decdf42f6a6b5109f3d32b9b4b"
+hpssacli_parser_owner: "root"
+hpssacli_parser_group: "root"
+hpssacli_parser_mode: "0755"
 
 #hpssacli_diag_cron_minute_interval: "0"
 #hpssacli_diag_cron_hour_interval: "02"

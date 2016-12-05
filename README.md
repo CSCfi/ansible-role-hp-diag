@@ -1,6 +1,8 @@
 ansible-role-hp-diag
 =========
 
+Sets up a cronjob that fetches hpssacli diag reports and makes them readable by the nrpe user. Installs python-hpadureport-parser.py that a nagios script can use to parse the diag reports.
+
 Requirements
 ------------
 
