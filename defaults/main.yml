@@ -8,8 +8,8 @@ hpssacli_diag_install_with_pip: True
 # Set hpssacli_parser_enable to False to not get_url in python-hpadureport-parser.py
 hpssacli_parser_enable: True
 hpssacli_parser_dest: "/usr/local/bin/python-hpadureport-parser.py"
-hpssacli_parser_url: "https://raw.githubusercontent.com/martbhell/python-hpadureport/124f6b3eae61a9621e2ec4a4f35772d1bc77049b/python-hpadureport-parser.py"
-hpssacli_parser_checksum: "2e1489d25c24d3159fe569c23edee92cc17596decdf42f6a6b5109f3d32b9b4b"
+hpssacli_parser_url: "https://raw.githubusercontent.com/martbhell/python-hpadureport/a9ce33ff22573f043f8719b9bc297920af9fbd9e/python-hpadureport-parser.py"
+hpssacli_parser_checksum: "916ce43e56cbbc05aaf09fcb4838d69f90092e148444f859e3c07909f0101d5b"
 hpssacli_parser_owner: "root"
 hpssacli_parser_group: "root"
 hpssacli_parser_mode: "0755"
